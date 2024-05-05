@@ -8,7 +8,7 @@ form.addEventListener('submit', function(e) {
 function validaCampo(){
     const campoA = parseInt(document.getElementById('numero-A').value);
     const campoB = parseInt(document.getElementById('numero-B').value);
-    const mensagemSucesso = `Muito bem, Realmente o valor <b>${campoA}</b> é menor que <b>${campoB}</b>, sendo assimo desafio está completo. Parabéns!` 
+    const mensagemSucesso = `Muito bem, Realmente o valor <b>${campoA}</b> é menor que <b>${campoB}</b>, sendo assim o desafio está completo. Parabéns!` 
 
     if (isNaN(campoA) || isNaN(campoB)){
         alert('Os campos precisam estar preenchidos');
